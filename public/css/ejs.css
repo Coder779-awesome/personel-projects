@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  background-color: #fbf7f0;
+}
+
+.instruction {
+  background-image: url("../images/Workout3-pic.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  color: #fff;
+}
+
+.instructions-h1 {
+  padding-top: 5rem;
+  padding-left: 5rem;
+  padding-bottom: 2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+
+.instructions {
+  padding-left: 5rem;
+  padding-bottom: 2rem;
+  font-family: "Raleway", sans-serif;
+}
+
+.instructions-h5 {
+  padding-left: 5rem;
+  font-family: "Raleway", sans-serif;
+}
+
+.time-table {
+  line-height: 3rem;
+  text-align: center;
+  position: relative;
+  top: -170px;
+  left: 1100px;
+  width: 80%;
+}
+
+.workout-name {
+  margin-top: 3rem;
+  margin-left: 5rem;
+}
+
+.workout-time {
+  margin-left: 5rem;
+}
+
+.submit {
+  font-size: large;
+  padding: 0.5rem;
+  margin-top: 1.5rem;
+  margin-left: 5rem;
+}
+
+.date {
+  padding-top: 5rem;
+  padding-left: 6rem;
+}
+
+.container-2 {
+  padding-bottom: 3rem;
+}
+
+table {
+  border: 1px solid #aaa;
+}
+
+.thead {
+  background-color: #323232;
+  color: #aaa;
+}
+
+p,
+td,
+th,
+th,
+h2 {
+  font-family: "Raleway", sans-serif;
+}
+
+.part2 {
+  margin-bottom: 0px;
+
+  overflow-y: scroll;
+
+  background-attachment: fixed;
+  background: linear-gradient(to bottom, #686d76, #fbf7f0);
+}
+
+.footer {
+  text-align: center;
+  position: relative;
+  left: 490px;
+  text-align: center;
+  /* background-color: #e8e8e8; */
+}
+
+.back {
+  margin-bottom: 4.5rem;
+}
+
+.footer-quote {
+  margin-bottom: 2rem;
+}
+
+.copyright {
+  color: #aaa;
+  padding-bottom: 1rem;
+}
+
+.cut {
+  position: relative;
+  top: 280px;
+  border-top: 6px dotted #aaa;
+  width: 10rem;
+  text-align: center;
+}

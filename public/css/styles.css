@@ -1,0 +1,114 @@
+body {
+  animation: transitionIn 0.75s;
+  margin: 0px;
+}
+
+.intro {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  color: #ffffff;
+  padding-left: 5rem;
+  padding-top: 5rem;
+}
+
+.intro-slogan {
+  line-height: 3rem;
+  padding-left: 5rem;
+  padding-top: 5rem;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+}
+
+.workout-image {
+  background-image: url("../images/Workout-pic.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.start-btn {
+  position: relative;
+  left: 80px;
+  margin-top: 3rem;
+}
+
+.dumbell-icon {
+  margin-right: 5px;
+}
+
+.features {
+  display: inline-block;
+}
+
+.icon {
+  position: relative;
+  left: 253px;
+  margin-top: 10rem;
+  margin-bottom: 2rem;
+  color: #758184;
+}
+
+.icon-features {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10rem;
+  font-family: "Raleway", sans-serif;
+}
+
+.icon:hover {
+  transition: all 0.3s;
+  opacity: 1;
+  color: #e84545;
+}
+
+.contact {
+  background-image: url("../images/Workout2-pic.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  text-align: center;
+}
+
+.contact-us {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.contact-us-p {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  padding-bottom: 3rem;
+}
+
+.contact-us-btn {
+  margin-bottom: 3rem;
+}
+
+.contact-us-icons {
+  font-size: 30px;
+  color: rgb(114, 104, 104);
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 2rem;
+}
+
+.contact-us-icons:hover {
+  color: #fff;
+  font-size: 32px;
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}
